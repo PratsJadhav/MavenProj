@@ -44,7 +44,7 @@ public class TC_newUser extends TestBase{
 		homepage = new HomePage(driver);
 		
 		homepage.loginToApplication(email, pass);
-	
+	        System.out.println("tesr]t");
 		Boolean status = homepage.verifyLogOutDisplay();
 		if(status)
 		{
