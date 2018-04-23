@@ -121,6 +121,7 @@ public class TestBase {
     {
     	if(browser.equalsIgnoreCase("Chrome"))
     	{
+		System.out.println("testing cI");
     		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
     		driver = new ChromeDriver();
     	}
